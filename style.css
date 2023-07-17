@@ -92,7 +92,7 @@ margin-top: 26px;
 /* sponsor-area style */
 .sponsor-area{
   display: flex;
-  justify-content: space-around;
+    justify-content: space-around;
   padding: 100px 0;
   align-items: center;
 }
@@ -134,6 +134,10 @@ margin-top: 26px;
 .logo h4 {
       margin-bottom: 20px;
 }
+.sponsor-area {
+      gap: 15px;
+    flex-wrap: wrap;
+}
   
 }
 
@@ -162,5 +166,10 @@ margin-top: 26px;
 }
 .banner-img {
     width: 60%;
+}
+.sponsor-area {
+    
+    gap: 25px;
+    flex-wrap: wrap;
 }
 }
