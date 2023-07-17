@@ -47,3 +47,42 @@ text-decoration: none;
 }
 
 /* banner-area style */
+.banner-area{
+  display: flex;
+  align-items: center;
+ 
+  
+}
+.banner-text{
+  width: 60%;
+  margin-right: 100px;
+}
+.banner-text h2{
+  color: #3A3A3A;
+font-size: 3.25rem;
+font-weight: 700;
+line-height: 70px; /* 134.615% */
+}
+.banner-text p{
+  color: #3A3A3A;
+width: 80%;
+font-size: 1rem;
+font-weight: 600;
+
+}
+.btn{
+  color: #FFF;
+font-size: 1rem;
+font-weight: 700;
+border-radius: 41px;
+background: #E02C6D;
+border: none;
+padding: 5px 24px;
+margin-top: 26px;
+}
+.banner-img {
+  width: 40%;
+}
+.banner-img img{
+  
+}
