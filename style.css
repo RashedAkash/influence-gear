@@ -91,10 +91,17 @@ margin-top: 26px;
 }
 /* sponsor-area style */
 .sponsor-area{
+  margin-top: 100px;
   display: flex;
     justify-content: space-around;
-  padding: 100px 0;
+  padding: 30px 0;
   align-items: center;
+  
+  border:1px solid ;
+  border-image:linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+  border-left: 0;
+border-right: 0;
+border-image-slice: 1;
 }
 .sponsor-area img{
  
